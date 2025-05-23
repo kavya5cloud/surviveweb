@@ -1,0 +1,86 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+}
+
+h1.glitch-text {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.question {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.options button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #111;
+  color: #fff;
+  border: 2px solid #444;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options button:hover {
+  background-color: #222;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #f0f, 0 0 5px #0ff;
+}
+
+.result {
+  font-size: 1.3rem;
+  margin-top: 25px;
+  color: #ff4d4d;
+}
+
+.restart {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.restart:hover {
+  background-color: #a64dff;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}

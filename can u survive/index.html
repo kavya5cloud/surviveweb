@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Can You Survive This Website?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="glitch-text">Can You Survive This Website?</h1>
+    <div id="game">
+      <p id="question" class="question"></p>
+      <div id="options" class="options"></div>
+      <p id="result" class="result hidden"></p>
+      <button id="restart" class="restart hidden">Try Again?</button>
+    </div>
+  </div>
+  <audio id="clickSound" src="click.mp3" preload="auto"></audio>
+  <audio id="glitchSound" src="glitch.mp3" preload="auto"></audio>
+  <audio id="successSound" src="success.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
